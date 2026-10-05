@@ -21,8 +21,8 @@ ne remplace pas un programme scolaire officiel complet.
 Python 3.12 est la version testée.
 
 ```bash
-git clone https://github.com/Aymen312/Moha-El-idrissi.git
-cd Moha-El-idrissi
+git clone https://github.com/Aymen312/aymen2000.git
+cd aymen2000
 python -m venv .venv
 ```
 
@@ -45,7 +45,7 @@ python -m streamlit run streamlit_app.py
 
 Le site est ensuite accessible à l'adresse locale affichée par Streamlit,
 généralement `http://localhost:8501`.
-Le dépôt est privé : le clonage nécessite un compte GitHub autorisé.
+Le dépôt est public : il peut être cloné sans autorisation spéciale.
 
 ## Déployer sur Streamlit Community Cloud
 
@@ -56,7 +56,7 @@ Le dépôt est privé : le clonage nécessite un compte GitHub autorisé.
 
    | Champ | Valeur |
    | --- | --- |
-   | Repository | `Aymen312/Moha-El-idrissi` |
+   | Repository | `Aymen312/aymen2000` |
    | Branch | `main` |
    | Main file path | `streamlit_app.py` |
    | Python version, dans Advanced settings | `3.12` |
