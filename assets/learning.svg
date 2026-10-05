@@ -1,0 +1,34 @@
+<svg class="learning-art" viewBox="0 0 440 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="art-title art-desc">
+  <title id="art-title">Apprendre les sciences et les lettres</title>
+  <desc id="art-desc">Un livre ouvert, une orbite stylisée et des symboles de physique et de français.</desc>
+  <rect x="15" y="12" width="410" height="362" rx="38" fill="#edf1e7"/>
+  <circle cx="224" cy="165" r="125" fill="#e2eadb"/>
+  <g fill="none" stroke="#176b57" stroke-width="2.5" opacity=".5">
+    <ellipse cx="218" cy="147" rx="87" ry="31" transform="rotate(-25 218 147)"/>
+    <ellipse cx="218" cy="147" rx="87" ry="31" transform="rotate(35 218 147)"/>
+    <ellipse cx="218" cy="147" rx="87" ry="31" transform="rotate(95 218 147)"/>
+  </g>
+  <circle cx="218" cy="147" r="13" fill="#176b57"/>
+  <circle cx="284" cy="110" r="7" fill="#d79930"/>
+  <circle cx="144" cy="168" r="6" fill="#176b57"/>
+  <g transform="rotate(-8 100 100)">
+    <rect x="43" y="52" width="89" height="77" rx="17" fill="#fffaf1" stroke="#dbe1d2"/>
+    <text x="87" y="102" text-anchor="middle" font-size="30" font-family="Georgia, serif" font-weight="bold" fill="#176b57">Aa</text>
+  </g>
+  <g transform="rotate(8 350 228)">
+    <rect x="308" y="187" width="87" height="70" rx="17" fill="#f2c76c"/>
+    <text x="352" y="230" text-anchor="middle" font-size="22" font-family="Georgia, serif" fill="#182e2b">v = d/t</text>
+  </g>
+  <path d="M80 242 Q141 212 217 241 Q289 212 352 242 L352 326 Q286 300 217 325 Q145 300 80 326Z" fill="#176b57"/>
+  <path d="M85 233 Q149 207 217 235 L217 313 Q150 288 85 313Z" fill="#fffdf8" stroke="#d7dfce" stroke-width="2"/>
+  <path d="M217 235 Q286 207 347 233 L347 313 Q286 288 217 313Z" fill="#f9eddb" stroke="#d7dfce" stroke-width="2"/>
+  <path d="M217 236 L217 315" stroke="#b5c6a9" stroke-width="2"/>
+  <g stroke="#a7b8a1" stroke-width="3" stroke-linecap="round">
+    <path d="M105 248 Q151 233 194 249"/><path d="M105 264 Q151 249 194 265"/><path d="M105 280 Q151 265 179 278"/>
+    <path d="M240 249 Q284 233 327 248"/><path d="M240 265 Q284 249 327 264"/><path d="M240 281 Q278 268 311 277"/>
+  </g>
+  <path d="M366 64 L366 86 M355 75 L377 75" stroke="#d79930" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="71" cy="178" r="4" fill="#d79930"/>
+  <circle cx="367" cy="148" r="4" fill="#176b57"/>
+  <text x="221" y="354" text-anchor="middle" font-size="11" letter-spacing="3" font-family="Arial, sans-serif" fill="#54716a">UNE NOTION À LA FOIS</text>
+</svg>

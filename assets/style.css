@@ -1,0 +1,46 @@
+:root { --ink: #182e2b; --green: #176b57; --cream: #faf9f5; --line: #e0e5dd; }
+.stApp { color: var(--ink); }
+.block-container { max-width: 1140px; padding-top: 2.5rem; padding-bottom: 2rem; }
+h1, h2, h3 { letter-spacing: -.035em; color: var(--ink); }
+h1 { font-weight: 760; }
+p, li { line-height: 1.7; }
+[data-testid="stSidebar"] { background: #f0f2eb; border-right: 1px solid var(--line); }
+[data-testid="stSidebar"] > div:first-child { padding-top: 1.8rem; }
+.brand { display: flex; align-items: center; gap: 12px; font-size: 18px; font-weight: 720; margin: 0 0 2rem; }
+.brand-mark { background: var(--ink); color: white; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 14px; font-size: 27px; letter-spacing: -3px; }
+.brand-mark span { color: #f2c76c; }
+.brand small { display: block; font-size: 11px; color: #54716a; font-weight: 450; margin-top: 2px; letter-spacing: .06em; }
+[data-testid="stSidebar"] [data-testid="stRadio"] label { padding: .38rem .2rem; }
+.sidebar-note { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid #d6ded1; font-size: 13px; color: #54716a; line-height: 1.8; }
+.eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .14em; color: var(--green); margin: .5rem 0 1rem; }
+.hero-title { font-size: clamp(42px, 5vw, 66px); line-height: 1.07; margin: 0 0 1.3rem; letter-spacing: -.055em; }
+.hero-title span { color: var(--green); }
+.hero-description { max-width: 450px; font-size: 17px; color: #52645f; margin-bottom: 1.5rem; }
+.page-intro { font-size: 16px; color: #52645f; max-width: 780px; margin-bottom: 1.4rem; }
+.learning-art { width: 100%; max-height: 350px; display: block; margin: .3rem auto 1.6rem; }
+[data-testid="stMetric"] { border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.2rem; background: #fffdf8; margin-top: .6rem; }
+[data-testid="stMetricValue"] { font-size: 30px; font-weight: 700; }
+.subject-panel { border-radius: 18px; padding: 1.6rem; margin-bottom: .6rem; min-height: 205px; }
+.physics { background: #e9f1e8; border: 1px solid #d6e6d3; }
+.french { background: #f9eddb; border: 1px solid #f0debb; }
+.subject-number { font-size: 11px; letter-spacing: .12em; font-weight: 700; }
+.subject-panel h2 { font-size: 25px; margin: .9rem 0 .5rem; }
+.subject-panel p { color: #52645f; font-size: 14px; margin-bottom: 0; }
+.lesson-card { border-radius: 16px; padding: 1.35rem; min-height: 230px; margin: .4rem 0 .6rem; }
+.lesson-symbol { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; background: #fffaf1; font-size: 22px; font-weight: 650; margin-bottom: .7rem; }
+.card-meta { font-size: 12px; color: #52645f; }
+.lesson-card h3 { font-size: 21px; margin: .5rem 0; }
+.lesson-card p { font-size: 14px; color: #52645f; margin-bottom: .7rem; }
+.topic-tag { display: inline-block; font-size: 11px; border: 1px solid #cdd7c6; border-radius: 20px; padding: 2px 9px; }
+.stButton button, .stDownloadButton button, .stLinkButton a { border-radius: 10px; font-weight: 600; min-height: 42px; }
+.stButton button:focus-visible, .stDownloadButton button:focus-visible { outline: 3px solid #d69b31; outline-offset: 3px; }
+[data-testid="stForm"] { border-radius: 12px; background: #fffdf8; }
+.footer { font-size: 11px; font-weight: 700; letter-spacing: .08em; color: #54716a; display: flex; justify-content: space-between; gap: 12px; padding: .3rem 0; }
+.footer span { font-weight: 400; letter-spacing: 0; }
+@media (max-width: 760px) {
+  .block-container { padding: 1.2rem 1rem 2rem; }
+  .hero-title { font-size: 44px; }
+  .learning-art { max-height: 270px; }
+  .subject-panel, .lesson-card { min-height: auto; }
+  .footer { flex-direction: column; }
+}
