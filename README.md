@@ -1,4 +1,4 @@
-# Moha El Idrissi — Physique & Français
+
 
 Un site éducatif en **français**, créé avec **Python et Streamlit**, pour apprendre et
 réviser au collège et au lycée. Les niveaux sont indicatifs ; ce premier catalogue
