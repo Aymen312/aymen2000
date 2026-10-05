@@ -44,3 +44,11 @@ p, li { line-height: 1.7; }
   .subject-panel, .lesson-card { min-height: auto; }
   .footer { flex-direction: column; }
 }
+
+/* Hide the icon-only Community Cloud source shortcut (GitHub).
+   Keep labeled toolbar actions and the sidebar toggle available.
+   This is presentation only; repository access is controlled by GitHub. */
+[data-testid="stToolbarActions"] [data-testid="stToolbarActionButton"]:not(:has([data-testid="stToolbarActionButtonLabel"])),
+[data-testid="stToolbar"] a[href*="github.com"] {
+  display: none !important;
+}
